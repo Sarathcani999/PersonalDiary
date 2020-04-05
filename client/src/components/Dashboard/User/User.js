@@ -2,9 +2,11 @@ import React from 'react'
 import { connect } from 'react-redux'
 
 function User(props) {
+
     return (
         <div>
             <h2 className="display-2">{props.user.name}</h2> 
+            <p className="lead" style={{margin : 0}}>{Date().slice(0 , 15)}</p>
             <hr />
         </div>
     )
