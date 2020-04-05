@@ -1,4 +1,4 @@
-# Personal Diary (MERN Stack Application)
+# Personal Diary - MERN
 
 ## How to Setup ?
 * **`npm install`**
