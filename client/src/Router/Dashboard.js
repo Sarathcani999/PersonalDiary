@@ -2,7 +2,7 @@ import React from 'react'
 import AppNavbar from '../components/AppNavbar'
 import { connect } from 'react-redux'
 import { Spinner } from 'reactstrap'
-import List from '../components/List'
+import Portal from '../components/Dashboard/Dashboard'
 import { Redirect } from 'react-router-dom'
 
 function Dashboard(props) {
@@ -26,7 +26,7 @@ function Dashboard(props) {
             ) : 
             (
                 // User Authenticated go to home
-                <List />
+                <Portal />
             ))} 
         </div>
     )

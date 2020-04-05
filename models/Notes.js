@@ -4,11 +4,17 @@ const Schema = mongoose.Schema;
 const NoteSchema = new Schema({
     body : {
         type : String ,
+        default : '' ,
         required : true
     } ,
     date : {
         type : Date ,
         default : Date.now()
+    } ,
+    created_by : {
+        type : Schema.Types.ObjectId, 
+        ref: 'user' ,
+        required : true
     }
 })
 
