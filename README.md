@@ -7,4 +7,6 @@
 ## How to Run ?
 * Run in Server Mode : **`npm run server`**
 * Run in Client Mode : **`npm run client`**
-* Run in Developer Mode : **`npm run dev`**
+* Run in Developer Mode : **`npm run dev`** 
+
+<span style="color:blue">some *This is Blue italic.* text</span>
