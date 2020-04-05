@@ -1,4 +1,4 @@
-# Boiler Plate for MERN Stack Application
+# Personal Diary (MERN Stack Application)
 
 ## How to Setup ?
 * **`npm install`**
