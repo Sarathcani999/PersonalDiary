@@ -11,13 +11,12 @@ import About from './Router/About';
 // import HomePage from './Router/HomePage';
 import Login from './Router/Login';
 import SignUp from './Router/SignUp';
-import { loadUser, fetchItems } from './redux';
+import { loadUser } from './redux';
 import Dashboard from './Router/Dashboard';
 
 function App() {
   useEffect(() => {
     store.dispatch(loadUser())
-    store.dispatch(fetchItems())
   } , [])
   return (
     <Provider store={store}>

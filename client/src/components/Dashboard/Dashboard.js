@@ -11,14 +11,14 @@ import { Container
 import { connect } from 'react-redux'
 import { createItem , deleteItem } from '../../redux/index'
 import User from './User/User'
-import Post from './Post/Post'
+import Posts from './Post/Post'
 
 function List(props) {
     
     return (
         <Container>
             <User />
-            <Post />
+            <Posts />
         </Container>
     )
 }

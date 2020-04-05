@@ -1,9 +1,14 @@
 import React from 'react'
 
+import CreateNote from './CreateNote/CreateNotes'
+import Notes from './Notes/Notes'
+
 function Post() {
     return (
         <div>
-            Posts
+            <CreateNote />
+            <hr/>
+            <Notes />
         </div>
     )
 }
